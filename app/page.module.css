@@ -57,7 +57,6 @@
 
 .image {
   object-fit: contain;
-  margin-left: 50px;
 }
 
 /* Section styles */
@@ -383,6 +382,11 @@
     align-items: center;
   }
 
+  .image {
+    object-fit: contain;
+    margin-left: 50px;
+  }
+
   .heroText {
     width: 50%;
     margin-bottom: 0;
@@ -435,6 +439,12 @@
 }
 
 @media (min-width: 1024px) {
+
+  .image {
+    object-fit: contain;
+    margin-left: 50px;
+  }
+
   .teamGrid {
     grid-template-columns: repeat(4, 1fr);
   }
