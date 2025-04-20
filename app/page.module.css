@@ -1,0 +1,441 @@
+
+/* Base styles */
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Hero section */
+.hero {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 4rem 0;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroText {
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.heroText h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.heroText p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 400px;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.image {
+  object-fit: contain;
+  margin-left: 50px;
+}
+
+/* Section styles */
+.section {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.sectionGray {
+  background-color: #f5f5f5;
+}
+
+.sectionPurple {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.sectionHeader h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.sectionHeader p {
+  font-size: 1.125rem;
+  color: #666;
+}
+
+.sectionPurple .sectionHeader p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Stats section */
+.statsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.statCard {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.statIcon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.statCard h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.statCard p {
+  color: #666;
+}
+
+/* Mission section */
+.missionContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.missionImage {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.missionText h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.missionText p {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  color: #666;
+}
+
+.checkList {
+  list-style: none;
+  padding: 0;
+}
+
+.checkList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.checkIcon {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* Team section */
+.teamGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.teamCard {
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.teamImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 380px;
+}
+
+.teamImage {
+  object-fit: cover;
+}
+
+.teamInfo {
+  padding: 1rem;
+}
+
+.teamInfo h3 {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.teamInfo p {
+  color: #666;
+}
+
+/* Awards section */
+.awardsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.awardCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+}
+
+.awardImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+.awardImage {
+  object-fit: contain;
+}
+
+/* CTA section */
+.ctaContent {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ctaContent h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ctaContent p {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.ctaButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 3rem 0;
+}
+
+.teamSlogan{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3763aa;
+
+}
+
+.nombre_persona{
+  color: #3763aa;
+}
+
+.puesto_persona{
+  color: #173f80;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footerColumn h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footerColumn p {
+  color: #aaa;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerColumn ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footerColumn ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footerColumn ul li a:hover {
+  color: white;
+}
+
+.footerBottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #333;
+  color: #aaa;
+}
+
+/* Buttons */
+.buttonPrimary {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.buttonPrimary:hover {
+  background-color: #4028e0;
+}
+
+.hero .buttonPrimary {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.hero .buttonPrimary:hover {
+  background-color: #f0f0f0;
+}
+
+.buttonOutline {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.buttonOutline:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.icon {
+  margin-left: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .heroContent {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .heroText {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .heroImage {
+    width: 50%;
+  }
+
+  .heroText h1 {
+    font-size: 3rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .missionContent {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .missionImage {
+    width: 50%;
+    margin-bottom: 0;
+    margin-right: 3rem;
+  }
+
+  .missionText {
+    width: 50%;
+  }
+
+  .teamGrid {
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+
+  .awardsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .ctaButtons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footerGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .teamGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
